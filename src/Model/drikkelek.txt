@@ -1,0 +1,5 @@
+Skriv inn spørsmål på en linje. Erstatt navn på deltager med %s
+%s syng en sang eller drikk 4 slurker.
+%s del ut 2 slurker til en valgfri deltager
+%s fortell en vits. De andre deltagerne avgjør om den er morsom eller ikke. Del ut 3 slurker hvis den er morsomt, hvis ikke drikke de selv.
+Du er en våghåls %s! Dans for oss og del ut 2 slurker.

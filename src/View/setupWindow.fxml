@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:controller="Controller.setupWindowController" xmlns:fx="http://javafx.com/fxml">
+
+    <top>
+        <VBox>
+            <MenuBar>
+                <Menu text="File">
+                    <MenuItem text="Exit" onAction="#handleExit"/>
+                </Menu>
+            </MenuBar>
+        </VBox>
+    </top>
+
+    <center>
+        <GridPane vgap="15" hgap="15">
+            <Label text="Name of player" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+            <TextField fx:id="playerNameField" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+            <Button fx:id="addPlayerButton" GridPane.rowIndex="2" GridPane.columnIndex="1" onAction="#addPlayer" text="Add player"/>
+            <Button fx:id="Play" GridPane.rowIndex="3" GridPane.columnIndex="1" onAction="#play" text="Start the game"/>
+        </GridPane>
+    </center>
+
+    <right>
+        <VBox>
+            <Label text="List of Players"/>
+
+            <ListView fx:id="playerListView">
+
+            </ListView>
+
+        </VBox>
+    </right>
+
+
+</BorderPane>

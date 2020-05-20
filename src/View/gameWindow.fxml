@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="Controller.gameWindowController">
+
+    <center>
+        <Label fx:id="question" text="Placeholder text for the questions"/>
+
+    </center>
+    <bottom>
+        <VBox>
+            <Button fx:id="nextQuestionButton" text="Next Question" onAction="#nextQuestion">
+
+            </Button>
+
+            <Button fx:id="quitGameButton" text="Quit Game">
+
+            </Button>
+        </VBox>
+    </bottom>
+
+</BorderPane>
